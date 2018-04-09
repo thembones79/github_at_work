@@ -1,0 +1,30 @@
+
+
+
+<h2 style="color: #456f9b; margin-bottom: 2%;">Exemplary IoT application with e-paper - how does it work?</h2>
+<div>
+    <div>
+        <p>The photo below shows an example IoT application using the e-paper display HINK-E029A01. The whole consists of three Wi-Fi nodeMCU modules, two sensors (humidity, pressure and temperature) and an <a href="/en/products/epd.html"><b>EPD</b></a> display with the Unisystem <a href="/en/products/development-kit/epd-compact-demo-uh.html"><b>EPD-COMPACT-DEMO-UH</b></a> board. The application can be used in home and industrial automation, eg as part of the air conditioning or furnace controller.</p>
+    </div>
+    <div style="width: 100%; display: inline-block; float: left; margin-right: 3%;">
+        <img style="width: 50%;" src="/media/news_pictures/Fig 6 - Scheme of IoT application.jpg">
+        <p style="font-size: 10px;">Figure 1 Scheme of IoT application consisting of: (A) - e-paper display, (B) - EPD-COMPACT-DEMO-UH board, (C) - Wi-Fi Host, (D) -Wi-Fi client 1, (E) - Wi-Fi client 2, (F) - sensor 1, (G) - sensor 2</p>
+    </div>
+</div>
+
+<div>
+    <div>
+        <p>One of the Wi-Fi modules is connected to the display via the SPI interface and works as a data server. The other modules are connected to the sensors via I2C and wirelessly transmit the environmental information to the server. Processed information is presented on the display and transmitted via Wi-Fi to the cloud, where it can be managed via a simple CMS. It is possible to unplug the jumpers from the board, so you can disconnect the built-in MCU and control the module using an external host, eg ESP8266 or through the server. </p>
+    </div>
+    <div style="width: 100%; display: inline-block; float: left; margin-right: 3%;">
+        <img style="width: 50%;" src="/media/news_pictures/Fig 7 - Block diagram of the described IoT application.png">
+        <p style="font-size: 10px;">Figure 2 Block diagram of the described IoT application</p>
+    </div>
+</div>
+
+
+<div style="font-size: 12px;">
+    <p style="margin-bottom: 1px;"><b>Mateusz Salamon</b></p>
+    <p style="margin-bottom: 1px;">Design Engineer, Unisystem Sp. z o.o.</p>
+    <p style="margin-bottom: 1px;">mateusz@unisystem.pl</p>
+</div>
