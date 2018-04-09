@@ -30,7 +30,7 @@
 .tm-checked-green { background-position: 0 -18px; }
 .ie7 .tm-checkbox{ display:inline; }
 .sbHolder{
-	border: solid 1px #333333;
+	border: solid 2px #333333;
 	position: relative;
 	width: auto;
 	padding:3px 25px 3px 7px;
